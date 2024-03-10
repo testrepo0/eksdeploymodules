@@ -9,8 +9,5 @@ resource "aws_eks_cluster" "demo" {
      ]
   }
 
-  depends_on = [
-    module.callvpc
-  ]
 }
 
