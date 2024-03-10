@@ -13,4 +13,6 @@ output "node_role" {
 output "demo_role" {
   value = aws_iam_role.demo.arn
 }
-
+output "vpc_id" {
+  value = aws_vpc.main.id
+ }
