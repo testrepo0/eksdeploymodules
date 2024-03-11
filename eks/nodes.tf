@@ -68,4 +68,4 @@ resource "aws_eks_node_group" "public-nodes" {
     "k8s.io/cluster-autoscaler/enabled" = true
 
   }
-}
+} 
