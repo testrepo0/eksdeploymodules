@@ -8,6 +8,6 @@ resource "aws_eks_cluster" "demo" {
        data.terraform_remote_state.network.outputs.private[0], data.terraform_remote_state.network.outputs.private[1]
      ]
   }
-  depends_on = [ module.callvpc.vpc_id ]
+  
 }
 
