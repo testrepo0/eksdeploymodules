@@ -27,10 +27,6 @@ variable "ekscluster_name" {
 
 }
 
-variable "vpcid" {
-    type = string
-  
-}
 /*variable "data_state_name" {
     type = string
     default = "network"
