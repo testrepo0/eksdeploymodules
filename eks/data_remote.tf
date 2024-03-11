@@ -12,4 +12,5 @@ data "terraform_remote_state" "network" {
     key = "statefiles/terraform.tfstate"
     region = "us-east-1"
   }
+  depends_on = [ module.callvpc ]
 } 
